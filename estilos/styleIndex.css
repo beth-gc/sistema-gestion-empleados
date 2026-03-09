@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&display=swap');
+
+:root
+{
+    --color-primario:#f3f4f6;
+    --color-secundario:#eff6ff;
+    --color-terciario:#2563eb;
+    --color-cuaternario:#bfdbfe;
+    --fuente-comic: 'Comic Relief', cursive;  
+}
+
+
+
+*
+{
+    padding:0;  /*crea espacio adentro del elemento*/
+    margin: 0; /*crea espacio afuera del elemento*/
+}
+
+body
+{
+    box-sizing: border-box;
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+    color:black
+}
+
+.encabezado
+{
+    padding:1% 1% 1% 1%; /*arriba derecha abajo izquierda*/
+    display:flex;
+    background-color: var(--color-primario);
+    justify-content: space-between;
+}
+
+.encabezado_menu
+{
+    display: flex;
+    gap:30px;
+}
+
+.btn-inicio{
+    color: black;
+    text-decoration:none;
+    font-family: var(--fuente-comic);
+    font-weight: 800;
+    font-size: 1.5rem;
+}
+
+.boton{
+    color: white;
+    background-color: var(--color-terciario);
+    padding: 10px;
+    text-decoration:none;
+    text-align: center;
+    border-radius: 10px;
+    font-family: var(--fuente-comic);
+    font-weight: 100;
+    font-size: 1rem;
+    
+    
+}
+
+.presentacion
+{
+    flex:1;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    background-color: white;
+}
+
+.cuadro_informativo
+{
+    width: 30%;
+    padding:1% 1% 1% 1%;
+    background-color: var(--color-secundario);
+    display: flex;
+    justify-content: center;
+    border-radius:10px;
+    border:1px solid var(--color-terciario);
+    font-family: var(--fuente-comic);
+    font-weight: 100;
+    font-size: 1rem;
+}
+
+.pie
+{
+    background-color: var(--color-primario);
+    padding:1% 1% 1% 1%;
+    display: flex;
+    justify-content: center;
+    font-family: var(--fuente-comic);
+    font-weight: 100;
+    font-size: 1rem;
+}
+
