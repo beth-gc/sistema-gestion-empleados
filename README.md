@@ -11,8 +11,8 @@ Este es un sistema web básico desarrollado en **PHP** y **MySQL** que permite g
 
 ## Tecnologías utilizadas
 * **Backend:** PHP 8.x
-* **Frontend:** HTML5, CSS3 (Google Fonts: Comic Relief)
-* **Base de Datos:** MySQL / MariaDB
+* **Frontend:** HTML5, CSS3 
+* **Base de Datos:** MySQL 
 
 ## Instalación y Configuración
 
